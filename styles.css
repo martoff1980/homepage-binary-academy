@@ -50,13 +50,13 @@ body {
 	margin-bottom: 15px;
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (width: 576px) {
 	.main-info,
-	.contact_info_container {
+	.contact_info__container {
 		flex-direction: column;
 	}
 
-	.contact_info_container {
+	.contact_info__container {
 		align-items: center;
 	}
 
